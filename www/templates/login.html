@@ -1,0 +1,19 @@
+<ion-view>
+    <ion-nav-title>Login Bolos</ion-nav-title>
+    <ion-content>
+        <div class="list list-inset">
+            <h3>Login</h3>
+            <form name="formLogin">
+                <label class="item item-input">
+				<input type="text" placeholder="Seu Login" ng-model="dados.login">
+			</label>
+                <label class="item item-input">
+				<input type="password" placeholder="Seu password" ng-model="dados.senha">
+			</label>
+            </form>
+            <button class="button button-positive button-full" ng-click="logar()">
+				Logar
+			</button>
+        </div>
+    </ion-content>
+</ion-view>
